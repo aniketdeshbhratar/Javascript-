@@ -2,7 +2,7 @@
 var wid = document.createElement("div");
 wid.style.height="400px";
 wid.style.width="400px";
-wid.style.background="black";
+wid.style.border="1px solid black";
 
 document.getElementById("widget").appendChild(wid);
 
