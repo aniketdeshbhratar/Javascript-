@@ -13,7 +13,7 @@ var element = document.createElement("input");
   element.name = open; // And the name too?
   element.onclick = openPopup();
   //Append the element in page (in span).  
-  wid.appendChild(element);
+  document.getElementById("widget").appendChild(element);
 //open popup
 function openPopup() {
     document.getElementById('test').style.display = 'block';
